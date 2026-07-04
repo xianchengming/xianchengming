@@ -1,0 +1,1710 @@
+{
+  "version": "v5.0",
+  "mode": "standard",
+  "totalQuestions": 32,
+  "segments": [
+    {
+      "id": "opening",
+      "name": "直觉快选",
+      "transition": {
+        "emoji": "🎬",
+        "text": "接下来，看看你在真实场景里怎么做"
+      }
+    },
+    {
+      "id": "situational",
+      "name": "情境卡",
+      "transition": {
+        "emoji": "💬",
+        "text": "换个场景，看看你在人群中怎么说"
+      }
+    },
+    {
+      "id": "chat",
+      "name": "聊天记录",
+      "transition": null
+    },
+    {
+      "id": "ifTomorrow",
+      "name": "如果明天",
+      "transition": {
+        "emoji": "❤",
+        "text": "接下来，问问你自己"
+      }
+    },
+    {
+      "id": "sort",
+      "name": "排序拼图",
+      "transition": null
+    },
+    {
+      "id": "aiScenario",
+      "name": "AI场景",
+      "transition": null
+    },
+    {
+      "id": "quickBinary",
+      "name": "极速二选",
+      "transition": null
+    },
+    {
+      "id": "validity",
+      "name": "效度检验",
+      "transition": null
+    },
+    {
+      "id": "closing",
+      "name": "收尾",
+      "transition": null
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "index": 0,
+      "axisTag": "🌍",
+      "axisName": "看清世界",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§一·退出方式",
+      "type": "binary",
+      "segment": "opening",
+      "text": "你觉得自己「不得不」做现在这份工作。",
+      "leftText": "因为不做的代价我真的承受不起",
+      "rightText": "因为没找到更好的替代方案",
+      "leftScores": {
+        "jianCha": 2,
+        "utilizeSociety": 2
+      },
+      "rightScores": {
+        "chengXing": 2,
+        "beatenBySociety": 2
+      },
+      "options": [],
+      "meta": {}
+    },
+    {
+      "id": "q02",
+      "index": 1,
+      "axisTag": "🎯",
+      "axisName": "找到路径",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§三·最小验证",
+      "type": "binary",
+      "segment": "opening",
+      "text": "你最近一次做了一个重要决定。现在回头看——",
+      "leftText": "当时想清楚了才动的",
+      "rightText": "当时凭感觉就动了",
+      "leftScores": {
+        "jianCha": 2,
+        "mingDing": 1
+      },
+      "rightScores": {
+        "chengXing": 2
+      },
+      "options": [],
+      "meta": {}
+    },
+    {
+      "id": "q03",
+      "index": 2,
+      "axisTag": "🌍",
+      "axisName": "看清世界",
+      "domainTag": "🌍",
+      "domainName": "世界域",
+      "methodologyRef": "§一·三环·权力逻辑",
+      "type": "binary",
+      "segment": "opening",
+      "text": "一个新同事入职三个月就被提拔了。",
+      "leftText": "想知道他做了什么带来了什么结果",
+      "rightText": "想知道他跟谁关系好",
+      "leftScores": {
+        "jianCha": 2,
+        "utilizeSociety": 2
+      },
+      "rightScores": {
+        "chengXing": 2,
+        "beatenBySociety": 2
+      },
+      "options": [],
+      "meta": {}
+    },
+    {
+      "id": "q04",
+      "index": 3,
+      "axisTag": "🎯",
+      "axisName": "找到路径",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§三·遮蔽剥离·出口选择",
+      "type": "situational",
+      "segment": "situational",
+      "text": "入职三个月。每次老板提新方向，某位老员工总能在会上精准指出风险——但从不跟进。同事私下说他「只会泼冷水」。明天老板要推一个你很清楚有严重风险的方向。你会怎么做？",
+      "_v71_note": "q03 rightScores jianCha -1→0 已修正见q03",
+      "sceneEmoji": "🏢",
+      "sceneTitle": "老员工的沉默",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "👁️",
+          "text": "梳理风险图——把风险按概率和影响排出来，找数据支持，在会上用事实说话",
+          "scores": {
+            "jianCha": 5,
+            "chengXing": 1,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "❤️",
+          "text": "先问自己为什么想站出来——是真心觉得有风险，还是想证明自己比那个老员工强",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 1,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🏃",
+          "text": "约那位老员工咖啡，聊聊他看到的风险和他为什么不跟进",
+          "scores": {
+            "mingDing": 5,
+            "jianCha": 3,
+            "chengXing": 3
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🌫️",
+          "text": "保持沉默",
+          "scores": {
+            "jianCha": 0,
+            "chengXing": 0,
+            "mingDing": 0
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q05",
+      "index": 4,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "🌍",
+      "domainName": "世界域",
+      "methodologyRef": "§二·驱动·结构投射",
+      "type": "situational",
+      "segment": "situational",
+      "text": "你做了一个决定。妈妈发了一长串消息：「我不是反对你。但是你想想，我们那时候哪有这么多选择？安稳不好吗？我是为你好。」你怎么想？",
+      "_v71_note": "q04D 摆烂选项三轴1→0 已修正",
+      "sceneEmoji": "🤲",
+      "sceneTitle": "为你好",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "👁️",
+          "text": "「安稳」是她那个年代的生存策略——她不是在反对我，是在用她的生存逻辑保护我",
+          "scores": {
+            "jianCha": 5,
+            "chengXing": 2,
+            "mingDing": 1
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "❤️",
+          "text": "我生气是因为她不懂我，还是她戳中了我自己都还没承认的担心",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 2,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🏃",
+          "text": "不回消息，回家当面聊——隔着屏幕只会越聊越远",
+          "scores": {
+            "mingDing": 0,
+            "chengXing": 0,
+            "jianCha": 0
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🌫️",
+          "text": "不回，以后少说",
+          "scores": {
+            "jianCha": 0,
+            "chengXing": 0,
+            "mingDing": 0
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q06",
+      "index": 5,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "❤️",
+      "domainName": "自我域",
+      "methodologyRef": "§二·内核·独立价值锚点",
+      "type": "situational",
+      "segment": "situational",
+      "text": "你做了一个重要决定。跟父母说完，筷子停在了半空中。他们说「我们不懂，但你不要后悔」。你知道这不是支持。你接下来？",
+      "sceneEmoji": "🏠",
+      "sceneTitle": "餐桌上的沉默",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "👁️",
+          "text": "理解他们的驱动力——自保还是地位，然后决定怎么沟通",
+          "scores": {
+            "jianCha": 5,
+            "chengXing": 2,
+            "mingDing": 1
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "❤️",
+          "text": "我真正担心的是「他们不支持」还是「万一他们说得对」",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 2,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🏃",
+          "text": "我做了决定，给我半年拿结果",
+          "scores": {
+            "mingDing": 5,
+            "chengXing": 3,
+            "jianCha": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🌫️",
+          "text": "换个话题",
+          "scores": {
+            "jianCha": 1,
+            "chengXing": 1,
+            "mingDing": 1
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q07",
+      "index": 6,
+      "axisTag": "🌍",
+      "axisName": "看清世界",
+      "domainTag": "🌍",
+      "domainName": "世界域",
+      "methodologyRef": "§一·退出方式·差序vs团体",
+      "type": "situational",
+      "segment": "situational",
+      "text": "你发现一家公司有两个并行运转的评价体系。明面KPI/暗地关系。一个同事能力平平但暗规则玩得转被提拔了。你怎么看？",
+      "sceneEmoji": "🏛️",
+      "sceneTitle": "两套规则",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "👁️",
+          "text": "退出代价决定的——忠诚比能力值钱，说明这家公司的核心资产不是人才",
+          "scores": {
+            "jianCha": 5,
+            "chengXing": 1,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "❤️",
+          "text": "我生气是因为不公平，还是因为我在能力那边被超了",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 2,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🏃",
+          "text": "开始更新简历，观察哪些行业退出成本更低",
+          "scores": {
+            "mingDing": 5,
+            "jianCha": 3,
+            "chengXing": 3
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🌫️",
+          "text": "不公平但改变不了",
+          "scores": {
+            "jianCha": 0,
+            "chengXing": 0,
+            "mingDing": 0
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q08",
+      "index": 7,
+      "axisTag": "🌍",
+      "axisName": "看清世界",
+      "domainTag": "🌍",
+      "domainName": "世界域",
+      "methodologyRef": "§一·信任+退出→结构走向",
+      "type": "situational",
+      "segment": "situational",
+      "text": "部门里三个人同时想推同一个改革方案但谁都不先开口。你说完之后方案被采纳了，人调去管仓库了。你怎么理解？",
+      "sceneEmoji": "🧱",
+      "sceneTitle": "铁板博弈",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "👁️",
+          "text": "低信任+高退出代价→没人敢冒头。我冒了，所以被排除",
+          "scores": {
+            "jianCha": 5,
+            "chengXing": 1,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "❤️",
+          "text": "如果是我，我的选择是因为真有退出能力还是只是觉得有",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 2,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🏃",
+          "text": "先找一个人下班后非正式聊",
+          "scores": {
+            "jianCha": 3,
+            "mingDing": 5
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🌫️",
+          "text": "别人都不说，我为什么说",
+          "scores": {
+            "jianCha": 0,
+            "chengXing": 0,
+            "mingDing": 0
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q09",
+      "index": 8,
+      "axisTag": "🌍",
+      "axisName": "看清世界",
+      "domainTag": "🌍",
+      "domainName": "世界域",
+      "methodologyRef": "§一·三环咬合·退出代价差",
+      "type": "situational",
+      "segment": "situational",
+      "text": "你朋友在两个圈子：老家关系网但有大兜底 vs 新城市规则清楚但只能靠自己。他想换但不知道该不该。你怎么帮他看？",
+      "sceneEmoji": "🪢",
+      "sceneTitle": "被拉扯的人",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "👁️",
+          "text": "两种退出代价下形成的不同均衡——老家的均衡是关系交换，新城市的均衡是能力交换",
+          "scores": {
+            "jianCha": 5,
+            "chengXing": 1,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "❤️",
+          "text": "他不敢换是因为真的换不起还是怕",
+          "scores": {
+            "jianCha": 2,
+            "chengXing": 5,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🏃",
+          "text": "先试一个月",
+          "scores": {
+            "jianCha": 3,
+            "mingDing": 5
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🌫️",
+          "text": "别人替他做不了决定",
+          "scores": {
+            "jianCha": 0,
+            "chengXing": 0,
+            "mingDing": 0
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q10",
+      "index": 9,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§二·驱动·归属驱",
+      "type": "chat",
+      "segment": "chat",
+      "text": "一个认识多年的朋友，最近半年几乎不回你消息了。上次你约他，他说「最近忙」。你看到他在朋友圈发了和其他人吃饭的合照。你发给他——",
+      "chatContext": "一个认识多年的朋友，最近半年几乎不回你消息了。上次你约他，他说「最近忙」。你看到他在朋友圈发了和其他人吃饭的合照。你发给他——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "💬",
+          "text": "你是不是对我有什么意见？有的话直接说",
+          "scores": {
+            "jianCha": 2,
+            "mingDing": 4
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "🤝",
+          "text": "等你缓过来再约。随时在",
+          "scores": {
+            "chengXing": 4,
+            "jianCha": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "😐",
+          "text": "行。各忙各的吧",
+          "scores": {
+            "jianCha": 1,
+            "mingDing": 1
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🫥",
+          "text": "什么都不发",
+          "scores": {
+            "chengXing": 1,
+            "jianCha": 1
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q11",
+      "index": 10,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§二·驱动·地位驱",
+      "type": "chat",
+      "segment": "chat",
+      "text": "一个不太熟的朋友发来：「好久不见！上周我刚升了总监，加了50%薪水。你还记得我们当年聊创业的事吗？哈哈。」你怎么回？",
+      "chatContext": "一个不太熟的朋友发来：「好久不见！上周我刚升了总监，加了50%薪水。你还记得我们当年聊创业的事吗？哈哈。」你怎么回？",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "🎯",
+          "text": "恭喜！所以今天是来叙旧还是来炫耀？",
+          "scores": {
+            "chengXing": 3,
+            "jianCha": 5
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "🤝",
+          "text": "恭喜总监——当年就觉得你行",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🫥",
+          "text": "不回",
+          "scores": {
+            "chengXing": 0,
+            "jianCha": 0
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🍽️",
+          "text": "厉害！改天请你吃饭",
+          "scores": {
+            "jianCha": 2,
+            "mingDing": 3
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q12",
+      "index": 11,
+      "axisTag": "🌍",
+      "axisName": "看清世界",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§一·互惠驱·退出条件",
+      "type": "chat",
+      "segment": "chat",
+      "text": "一个许久不联系的亲戚：「最近手头紧，能不能借两万？下个月一定还。」你知道他去年借过你五千还没还。你说——",
+      "chatContext": "一个许久不联系的亲戚：「最近手头紧，能不能借两万？下个月一定还。」你知道他去年借过你五千还没还。你说——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "🚫",
+          "text": "上次那五千还没还。这次不行",
+          "scores": {
+            "jianCha": 4,
+            "mingDing": 3,
+            "chengXing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "💳",
+          "text": "这次我借你两千不用还，但这是最后一次",
+          "scores": {
+            "jianCha": 5,
+            "mingDing": 4
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "😐",
+          "text": "我这边也不宽裕。帮不了",
+          "scores": {
+            "jianCha": 3,
+            "chengXing": 3,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "💸",
+          "text": "借了",
+          "scores": {
+            "jianCha": 1,
+            "chengXing": 1
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q13",
+      "index": 12,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§二·驱动·自保驱vs意义驱",
+      "type": "ifTomorrow",
+      "segment": "ifTomorrow",
+      "text": "如果明天你突然不需要为钱工作了——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "🎨",
+          "text": "做一件一直想做的事",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 2,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "🌍",
+          "text": "去看看世界怎么运转",
+          "scores": {
+            "jianCha": 5,
+            "chengXing": 2,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🏗️",
+          "text": "做一个自己的项目",
+          "scores": {
+            "mingDing": 5,
+            "chengXing": 2,
+            "jianCha": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🛋️",
+          "text": "先休息",
+          "scores": {
+            "chengXing": 1,
+            "jianCha": 1,
+            "mingDing": 1
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q14",
+      "index": 13,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "❤️",
+      "domainName": "自我域",
+      "methodologyRef": "§二·遮蔽·投喂型",
+      "type": "ifTomorrow",
+      "segment": "ifTomorrow",
+      "text": "如果明天有一个足够聪明的AI，能完成你90%的工作——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "🤖",
+          "text": "太好了——终于可以做只有人能做的事",
+          "scores": {
+            "chengXing": 3,
+            "jianCha": 3,
+            "mingDing": 3
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "😰",
+          "text": "那我还有什么用？",
+          "scores": {
+            "chengXing": 1,
+            "jianCha": 1
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🎯",
+          "text": "把AI当挑战者——它做不到的我必须做到更好",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 4,
+            "mingDing": 3
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "💤",
+          "text": "让AI干活我轻松点",
+          "scores": {
+            "chengXing": 0
+          },
+          "crossJudgment": {
+            "feedingRisk": 1
+          }
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q15",
+      "index": 14,
+      "axisTag": "🎯",
+      "axisName": "找到路径",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§三·迭代校准·成功偏差",
+      "type": "ifTomorrow",
+      "segment": "ifTomorrow",
+      "text": "如果明天你做成了一件大事——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "🔍",
+          "text": "拆一拆哪些我控制的哪些运气",
+          "scores": {
+            "mingDing": 5,
+            "chengXing": 3,
+            "jianCha": 4
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "🎉",
+          "text": "庆祝",
+          "scores": {
+            "chengXing": 1,
+            "jianCha": 1
+          },
+          "crossJudgment": {
+            "calibrationCheck": 1
+          }
+        },
+        {
+          "value": "C",
+          "emoji": "🏃",
+          "text": "找下一件",
+          "scores": {
+            "chengXing": 1,
+            "jianCha": 1
+          },
+          "crossJudgment": {
+            "calibrationCheck": 1
+          }
+        },
+        {
+          "value": "D",
+          "emoji": "🤔",
+          "text": "这件事之后我变了没有",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 2,
+            "mingDing": 3
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q16",
+      "index": 15,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "❤️",
+      "domainName": "自我域",
+      "methodologyRef": "§三·叠合遮蔽",
+      "type": "ifTomorrow",
+      "segment": "ifTomorrow",
+      "text": "你做了一件事，身边的人告诉你「你做对了」。你自己也觉得「做对了」。完完全全的一致——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "😌",
+          "text": "一致真好",
+          "scores": {
+            "chengXing": 1
+          },
+          "crossJudgment": {
+            "overlapDetection": 1
+          }
+        },
+        {
+          "value": "B",
+          "emoji": "🔍",
+          "text": "等一等——一致是最好的还是最危险的",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 5,
+            "mingDing": 3
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🏃",
+          "text": "继续冲",
+          "scores": {
+            "chengXing": 1,
+            "mingDing": 2
+          },
+          "crossJudgment": {
+            "overlapDetection": 1
+          }
+        },
+        {
+          "value": "D",
+          "emoji": "🤔",
+          "text": "这里面有没有「想让它是」的",
+          "scores": {
+            "chengXing": 4,
+            "jianCha": 2,
+            "mingDing": 1
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q17",
+      "index": 16,
+      "axisTag": "🎯",
+      "axisName": "找到路径",
+      "domainTag": "🌍",
+      "domainName": "世界域",
+      "methodologyRef": "§三·约束映射·出口选择",
+      "type": "sort",
+      "segment": "sort",
+      "text": "你考虑换工作。拖拽排序——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [],
+      "items": [
+        {
+          "id": "A",
+          "emoji": "🗺️",
+          "text": "画清真正不能放弃的",
+          "dimension": "constraintMap"
+        },
+        {
+          "id": "B",
+          "emoji": "🌫️",
+          "text": "想想是不是又在逃避",
+          "dimension": "shadowStrip"
+        },
+        {
+          "id": "C",
+          "emoji": "👀",
+          "text": "了解想去的行业规则",
+          "dimension": "worldView"
+        },
+        {
+          "id": "D",
+          "emoji": "🏃",
+          "text": "先投三份简历",
+          "dimension": "minVerification"
+        }
+      ],
+      "scoring": {
+        "method": "rankWeighted",
+        "weights": {
+          "1st": 1,
+          "2nd": 0.6,
+          "3rd": 0.3,
+          "4th": 0.1
+        },
+        "description": "按排序位置加权计分，排在第一位的item获得最高权重",
+        "jianChaWeights": {
+          "constraintMap": 2,
+          "shadowStrip": 2,
+          "worldView": 4,
+          "minVerification": 2
+        },
+        "chengXingWeights": {
+          "constraintMap": 4,
+          "shadowStrip": 2,
+          "worldView": 2,
+          "minVerification": 4
+        },
+        "mingDingWeights": {
+          "constraintMap": 2,
+          "shadowStrip": 4,
+          "worldView": 2,
+          "minVerification": 2
+        }
+      },
+      "meta": {}
+    },
+    {
+      "id": "q18",
+      "index": 17,
+      "axisTag": "🎯",
+      "axisName": "找到路径",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§三·遮蔽剥离·叠合识别",
+      "type": "sort",
+      "segment": "sort",
+      "text": "你和一个重要的人闹翻了。拖拽排序——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [],
+      "items": [
+        {
+          "id": "A",
+          "emoji": "🔍",
+          "text": "拆一拆责任",
+          "dimension": "constraintMap"
+        },
+        {
+          "id": "B",
+          "emoji": "❤️",
+          "text": "问自己为什么生气",
+          "dimension": "shadowStrip"
+        },
+        {
+          "id": "C",
+          "emoji": "📋",
+          "text": "列能做什么",
+          "dimension": "exitChoice"
+        },
+        {
+          "id": "D",
+          "emoji": "🏃",
+          "text": "先做一件他觉得我不会做但我不会做的事",
+          "dimension": "minVerification"
+        }
+      ],
+      "scoring": {
+        "method": "rankWeighted",
+        "weights": {
+          "1st": 1,
+          "2nd": 0.6,
+          "3rd": 0.3,
+          "4th": 0.1
+        },
+        "description": "按排序位置加权计分，排在第一位的item获得最高权重",
+        "jianChaWeights": {
+          "constraintMap": 3,
+          "shadowStrip": 2,
+          "worldView": 2,
+          "minVerification": 2
+        },
+        "chengXingWeights": {
+          "constraintMap": 2,
+          "shadowStrip": 2,
+          "worldView": 2,
+          "minVerification": 4
+        },
+        "mingDingWeights": {
+          "constraintMap": 2,
+          "shadowStrip": 5,
+          "worldView": 2,
+          "minVerification": 2
+        }
+      },
+      "meta": {}
+    },
+    {
+      "id": "q19",
+      "index": 18,
+      "axisTag": "🎯",
+      "axisName": "找到路径",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§三·方向浮现·交集非空",
+      "type": "sort",
+      "segment": "sort",
+      "text": "你手头有三个方向都能走但只能选一个。拖拽排序——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [],
+      "items": [
+        {
+          "id": "A",
+          "emoji": "📋",
+          "text": "把每个方向的不可变约束列出来",
+          "dimension": "constraintMap"
+        },
+        {
+          "id": "B",
+          "emoji": "❤️",
+          "text": "哪个因为「别人说好」",
+          "dimension": "shadowStrip"
+        },
+        {
+          "id": "C",
+          "emoji": "🎯",
+          "text": "找到「我能做」和「我想做」的交集",
+          "dimension": "directionEmerge"
+        },
+        {
+          "id": "D",
+          "emoji": "🏃",
+          "text": "在交集里挑一个48小时内做",
+          "dimension": "minVerification"
+        }
+      ],
+      "scoring": {
+        "method": "rankWeighted",
+        "weights": {
+          "1st": 1,
+          "2nd": 0.6,
+          "3rd": 0.3,
+          "4th": 0.1
+        },
+        "description": "按排序位置加权计分，排在第一位的item获得最高权重",
+        "jianChaWeights": {
+          "constraintMap": 3,
+          "shadowStrip": 2,
+          "worldView": 2,
+          "minVerification": 2
+        },
+        "chengXingWeights": {
+          "constraintMap": 2,
+          "shadowStrip": 2,
+          "worldView": 2,
+          "minVerification": 4
+        },
+        "mingDingWeights": {
+          "constraintMap": 2,
+          "shadowStrip": 4,
+          "worldView": 2,
+          "minVerification": 2
+        }
+      },
+      "meta": {}
+    },
+    {
+      "id": "q20",
+      "index": 19,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "❤️",
+      "domainName": "自我域",
+      "methodologyRef": "§二·遮蔽·投喂型",
+      "type": "aiScenario",
+      "segment": "aiScenario",
+      "text": "你让AI分析一个你有立场的问题。AI的回答几乎完全支持你的直觉。你接下来——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "🤖",
+          "text": "有AI印证更坚定了",
+          "scores": {},
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "🔍",
+          "text": "让它分析「反对我的三个理由」",
+          "scores": {
+            "chengXing": 4,
+            "jianCha": 4,
+            "mingDing": 1
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🎯",
+          "text": "自己先写三点「不该继续」的理由",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 4,
+            "mingDing": 3
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "💤",
+          "text": "舒服——AI懂我",
+          "scores": {},
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q21",
+      "index": 20,
+      "axisTag": "🌍",
+      "axisName": "看清世界",
+      "domainTag": "🌍",
+      "domainName": "世界域",
+      "methodologyRef": "§一·信息环境·算法塑造",
+      "type": "aiScenario",
+      "segment": "aiScenario",
+      "text": "你对AI说了一个很有信心的商业判断。AI回复：「这个判断有风险，你可能忽略了X因素。」你的反应——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "🤔",
+          "text": "有意思——我查一下X因素的来源",
+          "scores": {
+            "jianCha": 5,
+            "chengXing": 3,
+            "mingDing": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "🛡️",
+          "text": "AI数据可能不准",
+          "scores": {
+            "jianCha": 0
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "📊",
+          "text": "把这个因素放进分析重新算",
+          "scores": {
+            "jianCha": 3,
+            "chengXing": 2,
+            "mingDing": 4
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "😤",
+          "text": "AI太保守了",
+          "scores": {
+            "jianCha": 0
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q22",
+      "index": 21,
+      "axisTag": "🎯",
+      "axisName": "找到路径",
+      "domainTag": "❤️",
+      "domainName": "自我域",
+      "methodologyRef": "§三·遮蔽剥离·能力幻觉",
+      "type": "aiScenario",
+      "segment": "aiScenario",
+      "text": "你要写一份重要提案。AI初稿比你写的更流畅更专业更全面。你怎么用这份初稿？",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "📝",
+          "text": "以AI稿为基础逐段加入自己的",
+          "scores": {
+            "jianCha": 4,
+            "chengXing": 3,
+            "mingDing": 5
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "✅",
+          "text": "直接交",
+          "scores": {},
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🔧",
+          "text": "让AI改成我的语气",
+          "scores": {
+            "jianCha": 1,
+            "chengXing": 1
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🤷",
+          "text": "自己重写拿笔写不用AI",
+          "scores": {
+            "jianCha": 2,
+            "chengXing": 5,
+            "mingDing": 3
+          },
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q23",
+      "index": 22,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "❤️",
+      "domainName": "自我域",
+      "methodologyRef": "§二·行动验证·独立价值锚点",
+      "type": "aiScenario",
+      "segment": "aiScenario",
+      "text": "越来越多的事你直接问AI。你有没有想过——哪些判断不应该交给AI？",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "🤖",
+          "text": "技术细节数据分析",
+          "scores": {
+            "chengXing": 2,
+            "jianCha": 1
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "🧭",
+          "text": "方向性判断价值选择",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 3,
+            "mingDing": 3
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "C",
+          "emoji": "🫂",
+          "text": "涉及人的事",
+          "scores": {
+            "chengXing": 4,
+            "jianCha": 2
+          },
+          "crossJudgment": null
+        },
+        {
+          "value": "D",
+          "emoji": "🤔",
+          "text": "好像没有不能交的",
+          "scores": {},
+          "crossJudgment": null
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q24",
+      "index": 23,
+      "axisTag": "🌍",
+      "axisName": "看清世界",
+      "domainTag": "🌍",
+      "domainName": "世界域",
+      "methodologyRef": "§一·信息溯源",
+      "type": "quickBinary",
+      "segment": "quickBinary",
+      "text": "你刷到一条带有强烈情绪的观点。",
+      "leftText": "先查谁在传播、什么利益相关",
+      "rightText": "先判断对不对",
+      "leftScores": {
+        "jianCha": 1,
+        "utilizeSociety": 1
+      },
+      "rightScores": {
+        "jianCha": 0,
+        "beatenBySociety": 1
+      },
+      "options": [],
+      "meta": {}
+    },
+    {
+      "id": "q25",
+      "index": 24,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§二·遮蔽·方向一致性",
+      "type": "quickBinary",
+      "segment": "quickBinary",
+      "text": "一件事你心里知道该做但一直没做。",
+      "leftText": "先问是什么让我在拖",
+      "rightText": "先问怎么做才能不拖",
+      "leftScores": {
+        "chengXing": 2
+      },
+      "rightScores": {
+        "mingDing": 2
+      },
+      "options": [],
+      "meta": {}
+    },
+    {
+      "id": "q26",
+      "index": 25,
+      "axisTag": "🌍",
+      "axisName": "看清世界",
+      "domainTag": "🌍",
+      "domainName": "世界域",
+      "methodologyRef": "§一·群体秩序·结构共谋",
+      "type": "quickBinary",
+      "segment": "quickBinary",
+      "text": "你看到一件事你不同意，但周围人都没说话。",
+      "leftText": "在心里想为什么只有我看到",
+      "rightText": "算了下次再说",
+      "leftScores": {
+        "chengXing": 2,
+        "mingDing": 1
+      },
+      "rightScores": {
+        "mingDing": 0,
+        "chengXing": 0
+      },
+      "options": [],
+      "meta": {}
+    },
+    {
+      "id": "q27",
+      "index": 26,
+      "axisTag": "🎯",
+      "axisName": "找到路径",
+      "domainTag": "🧬",
+      "domainName": "人性域",
+      "methodologyRef": "§二·觉察·命名→暂停",
+      "type": "quickBinary",
+      "segment": "quickBinary",
+      "text": "你要做大决定前，脑子在转——",
+      "leftText": "这些「行不行」的声音从哪来的？",
+      "rightText": "这件事跟我想要的一致吗？",
+      "leftScores": {
+        "chengXing": 2
+      },
+      "rightScores": {
+        "jianCha": 2,
+        "chengXing": 1
+      },
+      "options": [],
+      "meta": {}
+    },
+    {
+      "id": "q28",
+      "index": 27,
+      "axisTag": "",
+      "axisName": "",
+      "domainTag": "",
+      "domainName": "",
+      "methodologyRef": "",
+      "type": "socialDesirability",
+      "segment": "validity",
+      "text": "我从来没有贪过小便宜。",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [],
+      "meta": {
+        "se": true,
+        "statement": "我从来没有贪过小便宜。",
+        "direction": "positive"
+      }
+    },
+    {
+      "id": "q29",
+      "index": 28,
+      "axisTag": "",
+      "axisName": "",
+      "domainTag": "",
+      "domainName": "",
+      "methodologyRef": "",
+      "type": "socialDesirability",
+      "segment": "validity",
+      "text": "别人对我的评价，我基本上不太在意。",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [],
+      "meta": {
+        "se": true,
+        "statement": "别人对我的评价，我基本上不太在意。",
+        "direction": "positive"
+      }
+    },
+    {
+      "id": "q30",
+      "index": 29,
+      "axisTag": "❤️",
+      "axisName": "了解自己",
+      "domainTag": "❤️",
+      "domainName": "自我域",
+      "methodologyRef": "§二·自我认知锚点",
+      "type": "selfReflection",
+      "segment": "closing",
+      "text": "做了这么多题，回头看一眼——你觉得自己的澄明力大概在什么水平？",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [],
+      "meta": {
+        "slider": true,
+        "min": 1,
+        "max": 7,
+        "labels": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "description": "1=完全不清楚自己在干嘛，7=非常清楚自己在干嘛"
+      }
+    },
+    {
+      "id": "q16.5",
+      "index": 30,
+      "axisTag": "",
+      "axisName": "",
+      "domainTag": "",
+      "domainName": "",
+      "methodologyRef": "",
+      "type": "thirdMap",
+      "segment": "crossJudgment",
+      "text": "你分析完一个局面——外部的结构约束说「这条路走不通」，你内心的感受也说「这条路我不想走」。两个结论完美一致。这时候——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "✅",
+          "text": "两个都说不行",
+          "scores": {},
+          "crossJudgment": null
+        },
+        {
+          "value": "B",
+          "emoji": "🧩",
+          "text": "等一下——如果外部约束被放大了呢",
+          "scores": {
+            "jianCha": 4,
+            "chengXing": 5,
+            "mingDing": 2
+          },
+          "crossJudgment": {
+            "thirdMap": "doubleRationalization"
+          }
+        },
+        {
+          "value": "C",
+          "emoji": "📊",
+          "text": "我再查一遍外部数据",
+          "scores": {
+            "jianCha": 4,
+            "chengXing": 1,
+            "mingDing": 3
+          },
+          "crossJudgment": {
+            "thirdMap": "abilityIllusion"
+          }
+        },
+        {
+          "value": "D",
+          "emoji": "❤️",
+          "text": "如果两个分析都错了",
+          "scores": {
+            "jianCha": 3,
+            "chengXing": 4,
+            "mingDing": 3
+          },
+          "crossJudgment": {
+            "thirdMap": "doubleRationalization"
+          }
+        }
+      ],
+      "meta": {}
+    },
+    {
+      "id": "q16.7",
+      "index": 31,
+      "axisTag": "",
+      "axisName": "",
+      "domainTag": "",
+      "domainName": "",
+      "methodologyRef": "",
+      "type": "awarenessShift",
+      "segment": "crossJudgment",
+      "text": "你发现自己对一个念头执念很深——「我一定要XX」。你看到了这个执念，也看到了它在推着你走。看到了之后——",
+      "leftText": "",
+      "rightText": "",
+      "leftScores": {},
+      "rightScores": {},
+      "options": [
+        {
+          "value": "A",
+          "emoji": "🔍",
+          "text": "继续分析",
+          "scores": {
+            "chengXing": 2,
+            "jianCha": 2,
+            "mingDing": 1
+          },
+          "crossJudgment": {
+            "awarenessShift": "naming"
+          }
+        },
+        {
+          "value": "B",
+          "emoji": "🫳",
+          "text": "放下它——因为看到了它在推我",
+          "scores": {
+            "chengXing": 5,
+            "jianCha": 3,
+            "mingDing": 3
+          },
+          "crossJudgment": {
+            "awarenessShift": "pauseToObserver"
+          }
+        },
+        {
+          "value": "C",
+          "emoji": "💪",
+          "text": "用它当动力",
+          "scores": {
+            "chengXing": 1,
+            "jianCha": 1,
+            "mingDing": 4
+          },
+          "crossJudgment": {
+            "awarenessShift": "naming"
+          }
+        },
+        {
+          "value": "D",
+          "emoji": "🔄",
+          "text": "转移——先做别的事",
+          "scores": {
+            "chengXing": 2,
+            "jianCha": 1,
+            "mingDing": 2
+          },
+          "crossJudgment": {
+            "awarenessShift": "naming"
+          }
+        }
+      ],
+      "meta": {}
+    }
+  ]
+}
